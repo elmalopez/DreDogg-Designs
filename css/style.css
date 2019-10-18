@@ -1,13 +1,24 @@
+a:link{
+    color:white;
+}
+a:hover{
+text-decoration:none;
+}
+a:visited{
+    background-color: transparent;
+}
 
 .navbar {
     font-family: 'Dekko', cursive;
 }
+
 .jumbotron{
     padding:0;
     margin-bottom:0;
     background-color: #66ccff;
     text-align: center;
 }
+
 .container{
     margin-top: 0;
     align-items: center;
@@ -16,10 +27,7 @@
 .main {
     background-color: #66ccff;
     vertical-align: top;
-  
 }
-
-
 
 .footer{
    position: bottom;
@@ -28,7 +36,6 @@
    bottom: 0;
    width: 100%;
    background-color: #66ccff;
-   /* background: linear-gradient(160deg, #dcf4fe,#66ccff); */
    color: white;
    text-align: center;
    font-family:  'Dekko', cursive;
@@ -37,6 +44,10 @@
    vertical-align: middle;
 }
 
+
 .social{
     padding: 10px;
+}
+.blackCopy{
+    color:black;
 }
